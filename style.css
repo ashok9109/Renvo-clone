@@ -1,0 +1,236 @@
+/* =========================== */
+/*  =========FONTS============ */
+/* =========================== */
+
+@font-face {
+    font-family: font1;
+    src: url(./fonts/3XFtErw3860rsdSUVZx78hP2QtzZ.woff2);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(./fonts/bootstrap-icons.woff2);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(./fonts/flaticon_mycollection.woff2);
+}
+
+@font-face {
+    font-family: font4;
+    src: url(./fonts/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2);
+}
+
+@font-face {
+    font-family: font5;
+    src: url(./fonts/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakp8ub-cxgUg.woff2);
+}
+
+@font-face {
+    font-family: font6;
+    src: url(./fonts/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6GGn8.woff2);
+}
+
+@font-face {
+    font-family: font7;
+    src: url(./fonts/xn7gYHE41ni1AdIRggexSg.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================= */
+/* =====Nav Section Code==== */
+/* ========================= */
+
+.nav-section {
+    height: 30vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.nav1-top {
+    display: none;
+}
+
+.nav2-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    padding: 2px 20px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.nav2-links {
+    display: none;
+}
+
+.button2 {
+    display: flex;
+    font-size: small;
+    background-color: #E3AD0B;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    gap: 4px;
+}
+
+.button2 h1 {
+    font-size: 12px;
+    font-family: font1;
+}
+
+.button2 h2 {
+    font-size: 12px;
+    font-family: font1;
+    background-color: white;
+    color: black;
+}
+
+/* =========================================== */
+/* ========NAV SECTTIONS RESPONSIVE========= */
+/* =========================================== */
+
+@media (min-Width:786px) {
+
+    .nav-section {
+        margin-top: 0;
+    }
+
+    .nav1-top {
+        display: flex;
+        background-color: #07001A;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        font-family: font1;
+        padding: 7px;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .flex {
+        display: flex;
+        gap: 5px;
+    }
+
+    .button2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+        padding: 8px 7px;
+        gap: 10px;
+    }
+
+    .button2 h1 {
+        font-size: 15px;
+    }
+
+    .button2 h2 {
+        font-size: 20px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .details {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-left: 50px;
+    }
+
+    .details h1 {
+        font-size: 16px;
+    }
+
+    .input-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px 5px;
+        border-radius: 10px;
+        gap: 10px;
+    }
+
+    .input-div input {
+        border: none;
+        background-color: black;
+        padding: 6px 5px;
+        border-radius: 5px;
+    }
+
+    .input-div i {
+        color: white;
+        font-size: 20px;
+    }
+
+    .nav-logos {
+        display: flex;
+        font-size: 17px;
+        gap: 10px;
+        color: white;
+        margin-right: 50px;
+    }
+
+    .nav2-links {
+        display: flex;
+        gap: 60px;
+    }
+
+    .nav2-links a {
+        text-decoration: none;
+        font-family: font6;
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .nav2-links h1 {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+}
+
+.page1 {
+    height: 100Vh;
+    width: 100%;
+    background: url(./images/01.jpg);
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10%;
+
+}
+
+.page1 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
