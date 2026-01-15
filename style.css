@@ -53,7 +53,7 @@ body {
 /* ========================= */
 
 .nav-section {
-    height: 30vh;
+    height: 34%;
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
@@ -72,6 +72,7 @@ body {
     justify-content: space-evenly;
     background-color: #FFFFFF;
     padding: 2px 20px;
+    gap: 10px;
 }
 
 .logo img {
@@ -179,7 +180,7 @@ body {
 
     .input-div input {
         border: none;
-        background-color: black;
+        background-color: #07001A;
         padding: 6px 5px;
         border-radius: 5px;
     }
@@ -217,20 +218,62 @@ body {
 
 }
 
-.page1 {
-    height: 100Vh;
-    width: 100%;
-    background: url(./images/01.jpg);
-    object-fit: cover;
-    background-position: center;
-    position: relative;
-    border-radius: 10%;
+/* ============================== */
+/* ========page1 code============ */
+/* ============================== */
 
+.page1 {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .page1 img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
+    min-height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.page1-info {
+    height: 50%;
+    width: 40%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+
+
+/* =========================== */
+/* ====Page1 responsive======= */
+/* =========================== */
+
+@media (min-width:786px) {
+    .page1 {
+        min-height: 100%;
+        width: 100%;
+    }
+
+    .page1 img {
+        min-height: 100%;
+        width: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .page1-info {
+        height: 50%;
+        width: 40%;
+        background-color: aquamarine;
+        position: absolute;
+        top: 140px;
+        left: 30px;
+    }
 }
