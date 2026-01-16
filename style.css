@@ -421,7 +421,7 @@ body {
     justify-content: space-between;
 }
 
-.page2-logos .num{
+.page2-logos .num {
     color: black;
     background-color: white;
     padding: 10px;
@@ -581,8 +581,251 @@ body {
         font-size: 2vmax;
     }
 
-    .page2-div3 p {
+}
+
+/* =========================== */
+/* =========Page3 code ======= */
+/* =========================== */
+
+.page3 {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vmax;
+    background-color: rebeccapurple;
+}
+
+.page3-top1 {
+    height: 50%;
+    width: 100%;
+    background-color: #0be35a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.1vmax;
+}
+
+.page3-top1 h1 {
+    font-family: font1;
+    font-size: 2vmax;
+}
+
+.page3-top1 h2 {
+    font-family: font1;
+    font-size: 3vmax;
+}
+
+.page3-top1 h3 {
+    font-family: font4;
+    font-size: 3vmax;
+    color: #E3AD0B;
+}
+
+.page3-top2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+    padding: 2vmax;
+}
+
+.page3-top2 h1 {
+    font-size: 10vmax;
+    color: #E3AD0B;
+    font-family: font1;
+}
+
+.page3-top2 p {
+    font-family: font1;
+    color: gray;
+}
+
+.page3-img-div {
+    height: 30%;
+    width: 100%;
+    background-color: #0be35a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vmax;
+}
+
+.page3-img-div img {
+    height: 6vmax;
+}
+
+.page3-img-div h1 {
+    font-family: font1;
+    font-size: 1.4vmax;
+}
+
+.page3-img-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+
+}
+
+.page3-img-div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+}
+
+.page3-bot1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1vmax solid #E3AD0B;
+    border-radius: 0.6vmax;
+    padding: 2vmax;
+}
+
+.page3-bot2 {
+    padding: 2vmax;
+}
+
+.page3-bot2 h1 {
+    font-size: 2vmax;
+}
+
+.page3-right-div {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    margin-top: 3vmax;
+}
+
+.page3-right-div img {
+    height: 100%;
+    width: 100%;
+}
+
+/* =========================== */
+/* ======page3 Responsive===== */
+/* ============================ */
+
+@media (min-width:786px) {
+    .page3 {
+        min-height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5vmax;
+        background-color: rgb(51, 153, 119);
+    }
+
+    .page3-top1 {
+        height: 50%;
+        width: 100%;
+        background-color: #0be35a;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0.1vmax;
+    }
+
+    .page3-top1 h1 {
+        font-family: font1;
+        font-size: 2vmax;
+    }
+
+    .page3-top1 h2 {
+        font-family: font1;
+        font-size: 3vmax;
+    }
+
+    .page3-top1 h3 {
+        font-family: font4;
+        font-size: 3vmax;
+        color: #E3AD0B;
+    }
+
+    .page3-top2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vmax;
+        padding: 2vmax;
+    }
+
+    .page3-top2 h1 {
+        font-size: 5vmax;
+    }
+
+    .page3-top2 p {
         font-family: font1;
     }
 
+    .page3-img-div {
+        height: 30%;
+        width: 100%;
+        background-color: #0be35a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2vmax;
+    }
+
+    .page3-img-div img {
+        height: 6vmax;
+    }
+
+    .page3-img-div h1 {
+        font-family: font1;
+        font-size: 1.4vmax;
+    }
+
+    .page3-img-div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vmax;
+
+    }
+
+    .page3-img-div2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vmax;
+    }
+
+    .page3-bot1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1vmax solid #E3AD0B;
+        border-radius: 0.6vmax;
+        padding: 2vmax;
+    }
+
+    .page3-bot2 {
+        padding: 2vmax;
+    }
+
+    .page3-bot2 h1 {
+        font-size: 2vmax;
+    }
+
+    .page3-right-div {
+        height: 50%;
+        width: 100%;
+        position: relative;
+        margin-top: 3vmax;
+    }
+
+    .page3-right-div img {
+        height: 100%;
+        width: 100%;
+    }
 }
