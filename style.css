@@ -46,6 +46,7 @@
 body {
     height: 100%;
     width: 100%;
+    background-color: #FFFFFF;
 }
 
 /* ========================= */
@@ -240,14 +241,67 @@ body {
 }
 
 .page1-info {
-    height: 50%;
-    width: 40%;
-    background-color: aquamarine;
+    height: 90%;
+    width: 60%;
     position: absolute;
-    top: 140px;
-    left: 30px;
+    top: 10px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vmax;
+    padding: 1vmax 2vmax;
+    border-radius: 10px;
+    color: white;
 }
 
+.page1-head {
+    font-family: font1;
+    font-size: 1.1vmax;
+}
+
+.page1-head span {
+    background-color: #E3AD0B;
+    padding: 0.3vmax 0.6vmax;
+    border-radius: 0.1vmax;
+}
+
+.page1-head2 {
+    font-family: font1;
+    font-size: 2vmax;
+}
+
+.page1-para {
+    font-family: font1;
+    font-size: 1.5vmax;
+}
+
+.page1-button {
+    display: flex;
+    font-size: 1.5vmax;
+    background-color: #E3AD0B;
+    border: none;
+    border-radius: 0.8vmax;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0.4vmax 1vmax;
+}
+
+.page1-button h1 {
+    font-size: 1vmax;
+    font-family: font1;
+}
+
+.page1-button h2 {
+    font-size: 1vmax;
+    font-family: font1;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
 
 /* =========================== */
 /* ====Page1 responsive======= */
@@ -255,8 +309,9 @@ body {
 
 @media (min-width:786px) {
     .page1 {
-        min-height: 100%;
+        height: 100vh;
         width: 100%;
+        overflow: hidden;
     }
 
     .page1 img {
@@ -271,9 +326,263 @@ body {
     .page1-info {
         height: 50%;
         width: 40%;
-        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         top: 140px;
         left: 30px;
     }
+
+    .page1-head {
+        font-family: font1;
+        font-size: 1.1vmax;
+    }
+
+    .page1-head2 {
+        font-family: font5;
+        font-size: 4vmax;
+    }
+
+    .page1-para {
+        font-family: font1;
+        font-size: 1.5vmax;
+    }
+
+    .page1-button {
+        display: flex;
+        font-size: 1.5vmax;
+        padding: 1vmax 2vmax;
+        border: none;
+        border-radius: 1vmax;
+    }
+
+    .page1-button h1 {
+        font-size: 20px;
+        font-family: font1;
+
+    }
+
+    .page1-button h2 {
+        font-size: 27px;
+        padding: 5px 10px;
+        font-family: font1;
+    }
+}
+
+/* =============================== */
+/* ===========page2 code========== */
+/* =============================== */
+
+.page2 {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5vmax;
+    gap: 2vmax;
+    position: relative;
+}
+
+.page2-div1 {
+    height: 100%;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5vmax;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 211, 211);
+    box-shadow: inset;
+    box-shadow: black;
+    position: relative;
+}
+
+.page2-div1 h1 {
+    font-family: font1;
+    font-size: 4vmax;
+}
+
+.page2-div1 p {
+    font-family: font1;
+}
+
+.page2-logos {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page2-logos .num{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.page2-div2 {
+    height: 100%;
+    width: 100%;
+    background-color: #E3AD0B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5vmax;
+    border-radius: 10px;
+    position: relative;
+}
+
+.page2-div2 h1 {
+    font-family: font1;
+}
+
+.page2-div2 p {
+    font-family: font1;
+}
+
+.page2-div3 {
+    height: 100%;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5vmax;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 211, 211);
+    position: relative;
+}
+
+.page2-div3 h1 {
+    font-family: font1;
+}
+
+.page2-div3 p {
+    font-family: font1;
+}
+
+
+@media (min-width:786px) {
+    .page2 {
+        min-height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 5vmax;
+        gap: 2vmax;
+    }
+
+    .page2-div1 {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 5vmax;
+        border-bottom-right-radius: 90px;
+    }
+
+    .page2-div1 h1 {
+        font-size: 2vmax;
+    }
+
+    .page2-div1 p {
+        font-family: font1;
+    }
+
+    .page2-logos {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .page2-logos .num {
+        background-color: #F1F7F3;
+        color: black;
+        border-radius: 50%;
+        padding: 15px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .page2-bg {
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-top-left-radius: 40px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-left: 1px solid rgb(231, 211, 211);
+        border-top: 1px solid rgb(231, 211, 211);
+
+    }
+
+    #page2-bg {
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-top-left-radius: 40px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .page2-logos i {
+        font-size: 70px;
+    }
+
+    .page2-div2 {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        padding: 5vmax;
+        border-radius: 10px;
+        border-bottom-right-radius: 90px;
+    }
+
+    .page2-div2 h1 {
+        font-family: font1;
+        font-size: 2vmax;
+    }
+
+    .page2-div3 {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 5vmax;
+        border-bottom-right-radius: 90px;
+    }
+
+    .page2-div3 h1 {
+        font-size: 2vmax;
+    }
+
+    .page2-div3 p {
+        font-family: font1;
+    }
+
 }
