@@ -1,6 +1,4 @@
-/* =========================== */
 /*  =========FONTS============ */
-/* =========================== */
 
 @font-face {
     font-family: font1;
@@ -49,9 +47,21 @@ body {
     background-color: #FFFFFF;
 }
 
-/* ========================= */
+
+/* common class */
+
+.bg-yellow {
+    color: #E3AD0B;
+    font-family: font4;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* =====Nav Section Code==== */
-/* ========================= */
 
 .nav-section {
     height: 34%;
@@ -107,9 +117,7 @@ body {
     color: black;
 }
 
-/* =========================================== */
 /* ========NAV SECTTIONS RESPONSIVE========= */
-/* =========================================== */
 
 @media (min-Width:786px) {
 
@@ -139,9 +147,6 @@ body {
     }
 
     .button2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         font-size: small;
         padding: 8px 7px;
         gap: 10px;
@@ -159,9 +164,6 @@ body {
 
     .details {
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 30px;
         margin-left: 50px;
     }
@@ -171,9 +173,6 @@ body {
     }
 
     .input-div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 2px 5px;
         border-radius: 10px;
         gap: 10px;
@@ -219,9 +218,7 @@ body {
 
 }
 
-/* ============================== */
-/* ========page1 code============ */
-/* ============================== */
+/* ========PAGE1-SECTION-CODE============ */
 
 .page1 {
     min-height: 100%;
@@ -283,9 +280,6 @@ body {
     border: none;
     border-radius: 0.8vmax;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
     padding: 0.4vmax 1vmax;
 }
@@ -303,9 +297,7 @@ body {
     border-radius: 5px;
 }
 
-/* =========================== */
-/* ====Page1 responsive======= */
-/* =========================== */
+/* ====PAGE1-SECTION-RESPONSIVE======= */
 
 @media (min-width:786px) {
     .page1 {
@@ -370,9 +362,7 @@ body {
     }
 }
 
-/* =============================== */
-/* ===========page2 code========== */
-/* =============================== */
+/* ===========PAGE2-SECTION-CODE========== */
 
 .page2 {
     min-height: 100%;
@@ -473,9 +463,7 @@ body {
     font-family: font1;
 }
 
-/* =========================== */
-/* ======page2-responsive===== */
-/* =========================== */
+/* ======PAGE2-SECTION-RESPONSIVE===== */
 
 @media (min-width:786px) {
     .page2 {
@@ -586,9 +574,7 @@ body {
 
 }
 
-/* =========================== */
-/* =========Page3 code ======= */
-/* =========================== */
+/* =========PAGE3-SECTION-CODE======= */
 
 .page3 {
     min-height: 100%;
@@ -648,9 +634,6 @@ body {
 .page3-img-div {
     height: 30%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 2vmax;
 }
 
@@ -668,17 +651,11 @@ body {
 }
 
 .page3-img-div1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 1vmax;
 
 }
 
 .page3-img-div2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 1vmax;
 }
 
@@ -714,9 +691,7 @@ body {
     width: 100%;
 }
 
-/* =========================== */
-/* ======page3 Responsive===== */
-/* ============================ */
+/* ===========PAGE3-SECTION-RESPONSIVE========== */
 
 @media (min-width:786px) {
     .page3 {
@@ -761,9 +736,6 @@ body {
     }
 
     .page3-top2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 1vmax;
         padding: 1vmax;
     }
@@ -795,17 +767,11 @@ body {
     }
 
     .page3-img-div1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 0.1vmax;
 
     }
 
     .page3-img-div2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 1vmax;
     }
 
@@ -870,23 +836,15 @@ body {
     }
 }
 
-/* ========================== */
-/* ======page4-animation===== */
-/* ========================== */
+/* ======PAGE4-SECTION-CODE======= */
 
 .page4-animation-sec {
     height: 15vh;
     width: 100%;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .page4-animation-cont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow-x: auto;
     overflow-y: hidden;
     gap: 29px;
@@ -925,20 +883,15 @@ body {
     }
 }
 
-/* ================================= */
-/* =============page5================ */
-/* ================================== */
+/* ========PAGE5-SECTION-CODE================ */
 
 .page5 {
     min-height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 4vmax;
     flex-direction: column;
     background-color: #07001A;
-    border-radius: 10vmax;
+    border-radius: 2vmax;
     padding: 5vmax;
 }
 
@@ -975,6 +928,7 @@ body {
     overflow: hidden;
     padding-bottom: 2vmax;
     position: relative;
+    border-radius: 2vmax;
 }
 
 .page5-para {
@@ -986,7 +940,7 @@ body {
 }
 
 .page5-cont h1 {
-    color: #07001A; 
+    color: #07001A;
     font-family: font1;
 }
 
@@ -995,57 +949,27 @@ body {
     font-family: font3;
 }
 
-/* ================================== */
-/* ========page5-responsive========== */
-/* ================================== */
+/* =======PAGE5-SECTION-RESPONSIVE========== */
 
 @media (min-width:786px) {
 
     .page5 {
         min-height: 100vh;
-        width: 100%;
-        border-radius: 20px;
-    }
-
-    .page5-div {
-        height: 40%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: white;
+        overflow: hidden;
     }
 
     .page5-div h1 {
-        font-family: font1;
         font-size: 3vmax;
     }
 
     .page5-div h2 {
-        font-family: font4;
-        color: #E3AD0B;
         font-size: 2vmax;
     }
 
     .page5-boxs {
         display: flex;
-        align-items: center;
         flex-direction: row;
-        justify-content: center;
         padding: 20px;
-    }
-
-    .page5-cont {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        border-bottom-right-radius: 3vmax;
-        background-color: white;
-        border-radius: 10px;
     }
 
     .page5-icon-cont {
@@ -1067,14 +991,246 @@ body {
         height: 30vh;
     }
 
-    .page5-cont h1 {
-        color: #07001A;
+}
+
+/* =========page6 code======= */
+
+.page6 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2vmax;
+    flex-direction: column;
+}
+
+.page6-left-div {
+    flex-direction: column;
+    gap: 5vmax;
+}
+
+.page6-left-div h1 {
+    font-family: font1;
+    font-size: 2vmax;
+}
+
+.page6-left-div img {
+    height: 19vmax;
+}
+
+.page6-right-div {
+    font-family: font1;
+}
+
+.page6-bot1 {
+    flex-direction: column;
+}
+
+.page6-bot2 {
+    flex-direction: column;
+}
+
+/* =======PAGE6-SECTION RESPONSIVE========= */
+
+@media (min-width:786px) {
+
+    .page6 {
+        min-height: 100%;
+        padding: 80px;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .page6-left-div {
+        width: 30%;
+        flex-direction: column;
+        gap: 5vmax;
+    }
+
+    .page6-left-div h1 {
         font-family: font1;
     }
 
-    .page5-cont p {
-        opacity: 3;
-        font-family: font3;
+    .page6-left-div img {
+        height: 200px;
     }
 
+    .page6-right-div {
+        width: 70%;
+    }
+
+    .page6-top-div h1 {
+        font-size: 4vmax;
+        margin-bottom: 20px;
+    }
+
+    .page6-bot-div {
+        display: flex;
+        gap: 50px;
+    }
+
+    .page6-bot1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .page6-bot2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+/* ===========PAGE7-SECTION CODE========== */
+
+.page7 {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5vmax;
+}
+
+.page7-left-div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: font1;
+}
+
+.page7-right-div {
+    position: relative;
+}
+
+.page7-right-div img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* ==========PAGE7-SECTION RESPONSIVE */
+
+@media (min-width:786px) {
+    .page7 {
+        min-height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .page7-left-div {
+        width: 30%;
+        font-size: 30px;
+        gap: 20px;
+    }
+
+    .page7-left-div h1 {
+        color: #07001A;
+    }
+
+    .page7-left-div h3 {
+        font-size: 20px;
+        color: rgb(147, 150, 151);
+    }
+
+    .page7-right-div {
+        width: 70%;
+
+    }
+
+    .page7-right-div img {
+        width: 100%;
+    }
+}
+
+/* ============PAGE8-SECTION========= */
+
+.page8 {
+    min-height: 100vh;
+    width: 100%;
+    color: #07001A;
+    background-color: #07001A;
+}
+
+.page8-video {
+    height: 100%;
+    width: 100%;
+    background-color: #F1F7F3;
+}
+
+.page8-video video {
+    width: 100%;
+}
+
+.page8-content {
+    color: white;
+    font-family: font1;
+    padding: 10px;
+    background-color: #228142;
+}
+
+.page8-content p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.page8-cont1 {
+    flex-direction: column;
+    padding: 30px;
+}
+
+.page8-loading {
+    gap: 30px;
+    border-bottom: 4px solid #E3AD0B;
+    padding: 10px;
+}
+
+.page8-loading2 {
+    gap: 30px;
+    border-bottom: 4px solid #E3AD0B;
+    padding: 10px;
+}
+
+.page8-content h1 {
+    font-size: 13px;
+}
+
+.page8-cont2 {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.page8-content h1 {
+    font-size: 20px;
+}
+
+.page8-form {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    background-color: white;
+}
+
+.input {
+    border-radius: 10px;
+    padding: 2vmax;
+    border: 1px solid #07001A;
+}
+
+.page8-form-input1 {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.page8-form-input2 {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.page8 button {
+    padding: 10px
 }
